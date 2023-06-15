@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(147, 160, 73);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+section {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    background-color: rgba(245, 245, 245, 0.800);
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+section>div>p {
+    padding: 5px;
+}
+
+section>div>p>input {
+    margin: 10px;
+}
+
+section>div>p>input[type=button] {
+    padding: 5px;
+}
+
+section>div>p>input[type=button]:hover {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#foto {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
